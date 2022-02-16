@@ -3,12 +3,12 @@
 
 construct an object that will toggle a class you pass to it's constructor. Works on document node objects.
 
-##Install
+## Install
 ```
 $ npm install @aarongraston/classtoggle
 ```
 
-##Usage
+## Usage
 
 ```
 import classToggle from '@aarongraston/classtoggle';
