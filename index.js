@@ -1,4 +1,4 @@
-export const classToggle = (classNameParam) => {
+const classToggle = (classNameParam) => {
   const className = classNameParam
 
   const off = (container) => {
@@ -18,4 +18,8 @@ export const classToggle = (classNameParam) => {
   }
 
   return { toggle }
+}
+
+module.exports = {
+  classToggle
 }
