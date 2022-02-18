@@ -20,6 +20,4 @@ const classToggle = (classNameParam) => {
   return { toggle }
 }
 
-module.exports = {
-  classToggle
-}
+export default classToggle;

@@ -1,6 +1,7 @@
 {
   "name": "@aarongraston/classtoggle",
   "version": "2.0.3",
+  "type": "module",
   "description": "allows an object to hold a class to toggle on a document node object when this is passed in.",
   "main": "index.js",
   "keywords": [
