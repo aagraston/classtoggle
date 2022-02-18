@@ -1,4 +1,6 @@
-exports.construct = function (classNameParam) {
+'use strict'
+
+const construct = function (classNameParam) {
   const className = classNameParam
 
   const off = (container) => {
@@ -19,3 +21,8 @@ exports.construct = function (classNameParam) {
 
   return { toggle }
 }
+
+module.exports = {
+  construct
+}
+
