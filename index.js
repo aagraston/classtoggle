@@ -1,4 +1,4 @@
-module.exports = (classNameParam) => {
+exports.constructor = function (classNameParam) {
   const className = classNameParam
 
   const off = (container) => {
